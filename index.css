@@ -1,0 +1,172 @@
+body{
+    background-color: #808080;
+   
+}
+.inicial h1{
+    background-color: #DCDCDC;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.cabeça {
+    border-bottom: 1px #606060;
+    height: 150px;
+}
+
+.icone{
+    text-outline: 100px;
+}
+
+.menu{
+    display: block;
+}
+
+.menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute; 
+    top: 150px;
+    left: 400px;
+}
+
+.menu li{
+    display: inline-block;
+    background-color: #DCDCDC;
+    padding: 10px;
+    margin: 0px;
+    transition-delay: 1s;
+
+}
+.menu li:hover{
+    background-color: #606060;
+}
+
+.menu a{
+    color: #000000;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #ffff;
+    text-decoration: underline;
+}   
+
+.table, tr, th{
+    border: 5px solid black;
+    height: 50px;
+    width: 100px;
+}
+
+.table, tr, td{
+    border: 5px solid black;
+    height: 50px;
+    width: 100px;
+}
+
+.table, h2{
+    background-color: #DCDCDC;
+    text-align: center;
+    border: 5px solid black;
+    height: 50px;
+    width: 448px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+tabel, tr{
+    background-color: #DCDCDC;  
+}
+
+
+.tabela{
+    height: 200px;
+    width: 30px;
+}
+
+.grafico { 
+    position: absolute;
+    left:2px; 
+    background-color: #DCDCDC;
+    width: 330px;
+    border: 2px solid black;
+    height: 80px;
+    padding: 100px;
+    top:120px;
+}
+.visita{
+    position: absolute;
+    right:100px;
+    top: 360px; 
+    
+}
+
+.periodo{
+    position: absolute;
+    left:20px;
+    top:30px;
+    width:100px;
+    background-color: whitesmoke;
+    height:145px;
+    float: left;
+}
+    /*mes = valor e valor = ao mes, eles estão invertidos*/
+.tarja{
+    position: absolute;
+    top:30px;
+    right:7px;
+    width:400px;
+    background-color:#808080;
+    height: 145px;
+    float: right;  
+}
+.periodo_ref{
+    position: relative;
+    top: 10px;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.tarja_ref{
+    background-color: #000000;
+    height: 14px;
+    color: white;
+    position: relative;
+    top: 10px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    text-align: center;
+}
+
+.rodape{
+    position: absolute;
+    left:1050px;
+    top: 1000px;
+    
+}
+.conf_rodape{
+    position: absolute;
+    top:1129px;
+    width:1080px; 
+    background-color: #DCDCDC;
+    height: 120px;
+    
+}
+.h6{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.ul, h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.link_rodape{
+    position: absolute;
+    top: 1000px;
+    left: 900px;
+    top: 1150px;
+    float: left;    
+}
